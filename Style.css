@@ -6,23 +6,21 @@
     -fx-text-fill   : #01579B;
     -fx-font-weight : bolder;
     -fx-font-size   : 16px;
-
-
+   
 }
 
-.
+h1{
+    border: 1px solid gray;
+    padding: 8px;
+}
 
 .body {
-    /*background: url("emergency.jpg");*/
-    /*-fx-background-image: url("emergency.jpg");*/
-    /*-fx-background-repeat: stretch;*/
-    /*-fx-background-size: 900 506;*/
-    /*-fx-background-position: center center;*/
     -fx-text-fill   : #01579B;
     -fx-font-weight : bolder;
     -fx-font-size   : 14px;
-
+    background-image: url('img.jpg');
 }
+
 .sectionTitle {
     -fx-text-fill   : #01579B;
     -fx-font-weight : bolder;
@@ -44,5 +42,33 @@
 }
 
 .button:hover {
-    -fx-background-color : #01579B;
+    -fx-background-color : rgb(99, 201, 187);
 }
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: rgb(34, 156, 146);
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: rgb(99, 201, 187);
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: rgb(204, 144, 194);
+    color: white;
+  }
